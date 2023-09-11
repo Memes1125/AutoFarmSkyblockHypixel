@@ -1,0 +1,36 @@
+import keyboard
+
+from time import sleep
+
+keyboard.wait("z")
+sleep(3)
+while True:
+    for i in range(1, 9 + 1):
+        keyboard.press("a")
+        sleep(22)
+        keyboard.release("a")
+        keyboard.press("w")
+        sleep(3)
+        keyboard.release("w")
+        keyboard.press("d")
+        sleep(22)
+        keyboard.release("d")
+        keyboard.press("w")
+        sleep(3)
+        keyboard.release("w")
+    keyboard.press("space")
+    sleep(0.1)
+    keyboard.release("space")
+    sleep(0.1)
+    keyboard.press("space")
+    sleep(0.1)
+    keyboard.release("space")
+    keyboard.press("space")
+    sleep(0.1)
+    keyboard.release("space")
+    keyboard.press("s")
+    sleep(10.5)
+    keyboard.release("s")
+    keyboard.press("shift")
+    sleep(2.5)
+    keyboard.release("shift")
